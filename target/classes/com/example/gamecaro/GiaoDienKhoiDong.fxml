@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="484.0" prefWidth="788.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.gamecaro.Controller">
+   <children>
+      <ImageView fitHeight="484.0" fitWidth="788.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/background.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="171.0" layoutY="40.0" prefHeight="403.0" prefWidth="446.0" style="-fx-border-width: 2; -fx-border-color: #8B4513;">
+         <children>
+            <ImageView fitHeight="386.0" fitWidth="429.0" layoutX="30.0" layoutY="9.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/Menu.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn1Player" layoutX="125.0" layoutY="84.0" mnemonicParsing="false" onAction="#gd1NguoiChoi" prefHeight="44.0" prefWidth="219.0" style="-fx-background-color: Transparent;" text="1 Player" textOverrun="CLIP">
+               <font>
+                  <Font name="Unispace-Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7684210538864136" green="0.7129240036010742" blue="0.4354386031627655" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.0521978021978022">
+                           <color>
+                              <Color red="0.27368420362472534" green="0.2571280002593994" blue="0.17434698343276978" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.08421052992343903" green="0.08270305395126343" blue="0.07516568899154663" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="125.0" layoutY="149.0" mnemonicParsing="false" onAction="#gd2NguoiChoi" prefHeight="44.0" prefWidth="219.0" style="-fx-background-color: Transparent;" text="2 Player" textOverrun="CLIP">
+               <font>
+                  <Font name="Unispace-Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7684210538864136" green="0.7129240036010742" blue="0.4354386031627655" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.0521978021978022">
+                           <color>
+                              <Color red="0.27368420362472534" green="0.2571280002593994" blue="0.17434698343276978" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.08421052992343903" green="0.08270305395126343" blue="0.07516568899154663" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="125.0" layoutY="202.0" mnemonicParsing="false" onAction="#gdTrucTuyen" prefHeight="44.0" prefWidth="219.0" style="-fx-background-color: Transparent;" text="Online" textOverrun="CLIP">
+               <font>
+                  <Font name="Unispace-Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7684210538864136" green="0.7129240036010742" blue="0.4354386031627655" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.0521978021978022">
+                           <color>
+                              <Color red="0.27368420362472534" green="0.2571280002593994" blue="0.17434698343276978" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.08421052992343903" green="0.08270305395126343" blue="0.07516568899154663" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="125.0" layoutY="262.0" mnemonicParsing="false" onAction="#gdHuongDan" prefHeight="44.0" prefWidth="219.0" style="-fx-background-color: Transparent;" text="Guide" textOverrun="CLIP">
+               <font>
+                  <Font name="Unispace-Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7684210538864136" green="0.7129240036010742" blue="0.4354386031627655" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.0521978021978022">
+                           <color>
+                              <Color red="0.27368420362472534" green="0.2571280002593994" blue="0.17434698343276978" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.08421052992343903" green="0.08270305395126343" blue="0.07516568899154663" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+            <Button layoutX="125.0" layoutY="322.0" mnemonicParsing="false" onAction="#thoatTroChoi" prefHeight="44.0" prefWidth="219.0" style="-fx-background-color: Transparent;" text="Quit Game" textOverrun="CLIP">
+               <font>
+                  <Font name="Unispace-Bold" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7684210538864136" green="0.7129240036010742" blue="0.4354386031627655" />
+                           </color>
+                        </Stop>
+                        <Stop offset="0.0521978021978022">
+                           <color>
+                              <Color red="0.27368420362472534" green="0.2571280002593994" blue="0.17434698343276978" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="0.08421052992343903" green="0.08270305395126343" blue="0.07516568899154663" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Button>
+         </children>
+      </Pane>
+      <Pane layoutX="695.0" layoutY="23.0" prefHeight="36.0" prefWidth="66.0" style="-fx-background-color: #FFF8DC; -fx-background-radius: 20,20; -fx-border-color: #8B4513; -fx-border-width: 1; -fx-border-radius: 20,20;">
+         <children>
+            <ImageView fitHeight="31.0" fitWidth="30.0" layoutX="33.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/off.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="31.0" fitWidth="31.0" layoutX="3.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/on.png" />
+               </image>
+            </ImageView>
+            <Button fx:id="btn1" layoutX="2.0" layoutY="2.0" mnemonicParsing="false" onAction="#onSound" prefHeight="31.0" prefWidth="31.0" style="-fx-background-radius: 20,20; -fx-background-color: Transparent;" textFill="#fffdfd" />
+            <Button fx:id="btn2" layoutX="33.0" layoutY="2.0" mnemonicParsing="false" onAction="#offSound" prefHeight="31.0" prefWidth="31.0" style="-fx-background-radius: 20,20; -fx-background-color: #FFF8DC;" textFill="WHITE" />
+         </children>
+      </Pane>
+      <Pane layoutX="705.0" layoutY="148.0" prefHeight="25.0" prefWidth="66.0" style="-fx-background-color: Transparent; -fx-background-radius: 20,20;" />
+   </children>
+</AnchorPane>
